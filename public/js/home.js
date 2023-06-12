@@ -158,7 +158,7 @@ function getTotal() {
         }
     });
 
-    document.getElementById("total").innerHTML = 'R$ ${total.toFixed(2)}';
+    document.getElementById("total").innerHTML = `R$ ${total.toFixed(2)}`;
 }
 
 function saveData(data) {
